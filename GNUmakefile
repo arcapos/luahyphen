@@ -6,6 +6,6 @@ CFLAGS+=	$(shell grep -q hnj_hyphen_load_file /usr/include/hyphen.h \
 
 LDADD+=		-lhyphen
 FILESDIR=	/usr/share/arcapos/hyphen
-INSTFILES=	de_ch.dic de_de.dic en_us.dic
+INSTFILES=	de_ch.dic de_de.dic en_us.dic fr.dic it.dic
 
 include $(MKDIR)lua.module.mk
